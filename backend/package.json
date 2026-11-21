@@ -1,0 +1,20 @@
+{
+  "name": "jarvis-vip-backend",
+  "version": "1.0.0",
+  "description": "Secure OpenAI ChatGPT proxy backend for Jarvis VIP Android assistant",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "express-rate-limit": "^7.4.1",
+    "firebase-admin": "^12.7.0",
+    "helmet": "^8.0.0"
+  }
+}
